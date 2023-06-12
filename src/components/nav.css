@@ -22,7 +22,7 @@ body {
 .navbar a {
     float: left;
     display: block;
-    color: #333;
+    color: #990000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -30,10 +30,10 @@ body {
 }
 .navbar a:hover {
     background-color: #ddd;
-    color: black;
+    color: #ff7878;
 }
 .active {
-   border-bottom: 2px solid blue;
+   border-bottom: 2px solid #ff7878;
 }
 .navbar-right {
     float: right;
@@ -48,7 +48,7 @@ body {
 .navbar-download {
     margin: 10px;
     padding: 12px 24px !important;
-    background-color: #1967d2;
+    background: linear-gradient(#990000, #ff7878);
     font-size: 1rem;
     line-height: 1.5rem;
     float: left;
