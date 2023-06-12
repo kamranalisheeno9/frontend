@@ -1,0 +1,9 @@
+.aboutp{
+    line-height: 27px;
+}
+@media (max-width:900px) {
+    .about{
+        width: auto !important;
+    }
+    
+}

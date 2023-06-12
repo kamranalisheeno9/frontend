@@ -1,0 +1,26 @@
+.footer{
+    background-color:#f2f3f5 !important;
+    color: black !important;
+}
+.footer a{
+    border-radius: 50%;
+   margin-right: 10px;
+   margin-left: 10px;
+   padding-top: 10px;
+    overflow: hidden;
+   color: black !important;
+}
+.footer .btn{
+ background-color: #bdc7c7;
+}
+
+@media (max-width:450px) {
+    .btn {
+        width: auto !important;
+        font-size: 14px;
+        padding-bottom: 5px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    }
+    
+}

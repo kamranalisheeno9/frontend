@@ -1,0 +1,158 @@
+.homehead {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 3.75rem;
+  line-height: 4.5rem;
+}
+
+.small a{
+ color: #0d6efd !important;
+}
+.home{
+  max-width: 100%;
+}
+.part1 {
+  background: linear-gradient(15.69deg, #e8f0fe 10.16%, rgba(255, 255, 255, 0) 89.84%);
+  min-height: calc(97vh - 64px);
+  overflow: hidden !important;
+  position: relative;
+
+}
+
+.svg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7rem;
+  height: 120px;
+}
+
+.chr-homepage-hero__animation--top-right {
+  -webkit-animation-duration: 10s;
+  animation-duration: 10s;
+  right: -22%;
+  top: -20%;
+  overflow: hidden !important;
+
+}
+
+.chr-homepage-hero__animation {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: full-rotate-left;
+  animation-name: full-rotate-left;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  position: absolute;
+  overflow: hidden !important;
+
+
+  will-change: transform;
+  z-index: -1;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.chr-homepage-hero__animation {
+  /* existing styles */
+  animation: rotate 20s linear infinite;
+}
+
+.home-download {
+  width: 183px;
+  margin-left: auto;
+  display: block;
+  margin-top: 25px;
+  margin-right: auto;
+}
+
+.navbar-download {
+  text-decoration: none;
+  display: block;
+  overflow: hidden;
+}
+
+.small {
+  margin-top: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  text-align: center;
+}
+
+.image {
+  width: 15.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+
+.section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.section-content {
+  flex-basis: 60%;
+  padding-right: 50px;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.section-text {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.section-image {
+  flex-basis: 20%;
+}
+
+.section-image img {
+  width: 100%;
+  height: auto;
+}
+@media (max-width:900px) {
+.chr-homepage-hero__animation {
+  display: none;
+}
+.home h1{
+  font-size: xx-large;
+}
+  .section-content {
+    flex-basis: 60%;
+    padding-left: 10px;
+    padding-right: 10px !important;
+  }
+  .section-image {
+    align-self: baseline;
+    margin-right: 10px;
+  }
+  .part3 .section-image{
+    margin-left: 10px;
+
+  }
+  .section-image {
+    margin-right: 10px;
+  }
+  .section-image {
+    flex-basis: 40%;
+  }
+}
